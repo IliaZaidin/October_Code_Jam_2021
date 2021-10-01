@@ -4,4 +4,6 @@ The **International October Practicum Code Jam** aims to draw participants' atte
 
 The challenge is to create an MVP of a digital service that we can benefit from as lockdowns,  travel regulations, changing workplace habits, and health precautions are still affecting our lives.
 
+The Code Jam unites Web Development students from Practicum 100 programs in the US and Israel with UX/UI Design students from Russia - teams of two Web Development students from US and Israel, and UX/UI Design student from Russia collaborate during the Code Jam.
+
 https://iliazaidin.github.io/October_Code_Jam_2021/
