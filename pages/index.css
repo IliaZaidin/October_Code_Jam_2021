@@ -29,5 +29,6 @@
 @import url(../blocks/popup/__submit/popup__submit.css);
 @import url(../blocks/popup/__title/popup__title.css);
 @import url(../blocks/popup/_is_opened/popup_is_opened.css);
+@import url(../blocks/popup/__subtitle/popup__subtitle.css);
 
 @import url(../blocks/gcse-search/gcse-search.css);
