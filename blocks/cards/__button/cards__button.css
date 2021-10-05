@@ -1,7 +1,10 @@
 .cards__button {
-  background-color: #8a929c;
+  margin: 0;
+  padding: 0;
+  background-color: #858282;
   cursor: pointer;
   border: none;
+  text-align: start;
 }
 
 .cards__button:hover {

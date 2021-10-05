@@ -32,3 +32,6 @@
 @import url(../blocks/popup/__subtitle/popup__subtitle.css);
 
 @import url(../blocks/gcse-search/gcse-search.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
