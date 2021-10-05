@@ -1,0 +1,9 @@
+.cards__button {
+  background-color: #8a929c;
+  cursor: pointer;
+  border: none;
+}
+
+.cards__button:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,8 @@
+.popup__form {
+  background-color: #8a929c;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  align-items: center;
+}
