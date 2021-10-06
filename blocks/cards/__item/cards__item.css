@@ -1,3 +1,4 @@
 .cards__item {
   border: solid #31343b;
+  flex-basis: calc((100% / 3) - 20px);
 }
