@@ -10,6 +10,7 @@
 @import url(../blocks/header/__wrapper/header__wrapper.css);
 @import url(../blocks/header/__search/header__search.css);
 @import url(../blocks/header/__search-img/header__search-img.css);
+@import url(../blocks/header/__search-input/header__search-input.css);
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);

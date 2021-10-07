@@ -1,6 +1,5 @@
 .cards__item {
-  border: solid #31343b;
-  flex-basis: calc((100% / 3) - 27.5px);
-/*   border-radius: 20px;
-  background-color: #ffffff; */
+  /* flex-basis: calc((100% / 3) - 27.5px); */
+  border-radius: 20px;
+  background-color: #ffffff;
 }
