@@ -1,8 +1,8 @@
 .popup {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-color: #ffffffD9;
-  position: absolute;
+  position: fixed;
   visibility: hidden;
   display: flex;
   flex-direction: column;
