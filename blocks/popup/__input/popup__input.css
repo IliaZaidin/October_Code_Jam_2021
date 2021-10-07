@@ -1,0 +1,15 @@
+.popup__input {
+  width: 657px;
+  height: 60px;
+  background: #FFFFFF;
+  border: 2px solid #436BFA;
+  box-sizing: border-box;
+  border-radius: 9px;
+
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 140%;
+  color: #898989;
+}

@@ -1,3 +1,21 @@
 .popup__close {
-  
+  margin: 0;
+  padding: 0;
+
+  grid-area: cancel;
+  width: 300px;
+  height: 60px;
+  background: #FFFFFF;
+  border: 2px solid #436BFA;
+  box-sizing: border-box;
+  border-radius: 9px;
+
+  font-family: Manrope, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 140%;
+  color: #363636;
+
+  cursor: pointer;
 }

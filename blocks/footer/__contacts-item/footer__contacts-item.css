@@ -1,8 +1,14 @@
-.footer__title {
+.footer__contacts-item {
   font-family: Manrope, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 140%;
   color: #FFFFFF;
+  font-style: none;
+  text-decoration: none;
+}
+
+.footer__contacts-item:hover {
+  opacity: 0.5;
 }

@@ -1,0 +1,8 @@
+.intro__wrapper {
+  padding: 0;
+  margin: 0;
+  width: 1111px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
