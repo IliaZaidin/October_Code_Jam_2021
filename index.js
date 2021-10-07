@@ -1,3 +1,12 @@
+const formSettings = {
+  formSelector: ".popup__wrapper",
+  inputSelector: ".popup__input",
+  submitButtonSelector: ".popup__submit",
+  inactiveButtonClass: "popup__submit_inactive",
+  inputErrorClass: "input__text_invalid",
+  errorClass: "input-error_active"
+}; 
+
 //============================= Popup =======================
 const popup = document.querySelector('.popup');
 const popupTitile = document.querySelector('.popup__title');

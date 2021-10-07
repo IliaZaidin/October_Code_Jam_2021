@@ -142,8 +142,10 @@
       <form class="popup__wrapper" name="form">
         <h2 class="popup__title"></h2>
         <h3 class="popup__subtitle">Please fill in your personal data</h3>
-        <input class="popup__input popup__input_type_name" name="upload-name" type="text" placeholder="Full name" required>
-        <input class="popup__input popup__input_type_ID" name="upload-id" type="number" placeholder="Personal ID number" required>
+        <input class="popup__input popup__input_type_name" name="name" type="text" placeholder="Full name" required>        
+        <span class="input-error name-input-error"></span>
+        <input class="popup__input popup__input_type_ID" name="id" type="number" placeholder="Personal ID number" required>        
+        <span class="input-error id-input-error"></span>
         <input class="popup__input popup__input_type_files" name="upload-files" type="file" accept=".pdf, .jpg, .jpeg" required multiple>
         <button class="popup__submit" type="submit">Submit your request</button>
         <button class="popup__close popup__close_type_form" type="button">Cancel</button>
