@@ -1,4 +1,4 @@
 .cards__item {
   border: solid #31343b;
-  flex-basis: calc((100% / 3) - 27.5px);
+  flex-basis: calc((100% / 3) - 27.5px); /*gap between cards + border width from both sides*/
 }
