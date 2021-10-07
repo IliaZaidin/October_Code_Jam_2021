@@ -40,7 +40,7 @@
 @import url(../blocks/popup/_is_opened/popup_is_opened.css);
 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__wraper/footer__wraper.css);
+@import url(../blocks/footer/__wrapper/footer__wrapper.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__contacts-item/footer__contacts-item.css);
