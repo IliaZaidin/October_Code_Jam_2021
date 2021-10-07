@@ -32,7 +32,7 @@ popupClose.addEventListener('click', ()=> { //close form
 //============================= Search =======================
 import { filterCards } from "./scripts/Search.js"
 
-const searchInput = document.querySelector(".search__input")
+const searchInput = document.querySelector(".header__search-input")
 
 searchInput.addEventListener('keyup', (e) => { 
   e.preventDefault();
