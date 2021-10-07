@@ -19,3 +19,13 @@ popupSubmit.addEventListener('click', ()=> {  //submit request
 popupClose.addEventListener('click', ()=> { //close form 
   popup.classList.remove('popup_is_opened');
 })
+
+//============================= Search =======================
+import { filterCards } from "./scripts/Search.js"
+
+const searchInput = document.querySelector(".search__input")
+
+searchInput.addEventListener('keyup', (e) => { 
+  e.preventDefault();
+  filterCards(searchInput.value, '.cards__item', '.cards__title');
+})
