@@ -1,4 +1,12 @@
 .intro__title {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  width: 865px;
+  font-family: Manrope, sans-serif;
+  font-style: normal;
+  font-weight: medium;
+  font-size: 44px;
+  line-height: 136%;
+  color: #436BFA;
+  text-align: start;
 }

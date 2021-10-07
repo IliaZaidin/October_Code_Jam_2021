@@ -1,0 +1,10 @@
+.header__wrapper {
+  padding: 0;
+  margin: 0;
+  width: 1111px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

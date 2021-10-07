@@ -1,7 +1,13 @@
 .cards__button {
   margin: 0;
   padding: 0;
-  background-color: #858282;
+  font-family: Manrope, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #363636;
+  background-color: #ffffff;
   cursor: pointer;
   border: none;
   text-align: start;

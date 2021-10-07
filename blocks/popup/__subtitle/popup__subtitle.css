@@ -1,3 +1,12 @@
 .popup__subtitle {
-  
+  padding: 0;
+  margin: 0%;
+  width: 617px;
+  font-family: Manrope, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 174%;
+  color: #363636;
+  grid-area: subtitle;
 }

@@ -1,3 +1,4 @@
 .cards__item {
-  border: solid #31343b;
+  border-radius: 20px;
+  background-color: #ffffff;
 }

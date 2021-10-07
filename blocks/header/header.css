@@ -1,5 +1,8 @@
 .header {
+  width: 100%;
+  background-color: #436BFA;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
 }

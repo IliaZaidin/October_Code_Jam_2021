@@ -1,9 +1,9 @@
 .cards__wrapper {
-  margin: 0;
+  margin: 30px 0 80px 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 357px);
+  grid-template-rows: repeat(2, 316px);
   gap: 20px;
   list-style: none;
 }

@@ -1,0 +1,19 @@
+.popup__wrapper {
+  width: 717px;
+  height: 902px;
+  border-radius: 20px;
+  background-color: #F1F4FE;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas: 
+  "title title"
+  "subtitle subtitle"
+  "name name"
+  "id id"
+  "file file"
+  "submit cancel";
+  align-items: center;
+  justify-items: center;
+}
