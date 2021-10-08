@@ -71,5 +71,5 @@ const searchInput = document.querySelector(".header__search-input")
 
 searchInput.addEventListener('keyup', (e) => { 
   e.preventDefault();
-  filterCards(searchInput.value, '.cards__item', '.cards__title');
+  filterCards(searchInput.value, '.cards__item', '.cards__title', '.cards__button');
 })
