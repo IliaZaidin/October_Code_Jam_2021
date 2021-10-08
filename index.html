@@ -17,7 +17,7 @@
         <div class="header__wrapper">
           <img class="logo logo_place_header" src="./images/logo.png" alt="Yandex City Logo">
           <div class="header__search">          
-            <input class="header__search-input" type="text" placeholder="Search for service              &#x1F50D;&#xFE0E;">
+            <input class="header__search-input" type="text" placeholder=" Search for service             &#x1F50D;&#xFE0E;">
             <!-- <img class="header__search-img" src="./images/search.png" alt="">  -->
           </div>
         </div>
@@ -142,8 +142,8 @@
       </main>
   
       <!-- Upload form  -->
-      <section class="popup">
-        <form class="popup__wrapper" name="form">
+      <section class="popup popup_type_open>
+        <form class="popup__wrapper" name="form-open">
           <h2 class="popup__title"></h2>
           <h3 class="popup__subtitle">
             Please fill in your full name and personal ID number. Scan or make a photograph 
@@ -153,6 +153,19 @@
           <input class="popup__input popup__input_type_ID" name="upload-id" type="number" placeholder="Personal ID number" required>
           <input class="popup__input popup__input_type_files" name="upload-files" type="file" accept=".pdf, .jpg, .jpeg" required multiple>
           <button class="popup__submit" type="submit">Submit your request</button>
+          <button class="popup__close popup__close_type_form" type="button">Cancel</button>
+        </form>
+      </section>
+
+      <section class="popup popup_type_submitted">
+        <form class="popup__wrapper" name="form-submitted">
+          <h2 class="popup__title"></h2>
+          <h3 class="popup__subtitle">
+            Your request has been received by the service and will be reviewed within seven calendar days.
+            A message about the decision on your request will be sent to your email. You will also receive 
+            supporting certificates that have the legal force of an ordinary paper document.                   
+            Take care of yourself. 
+          </h3>
           <button class="popup__close popup__close_type_form" type="button">Cancel</button>
         </form>
       </section>
