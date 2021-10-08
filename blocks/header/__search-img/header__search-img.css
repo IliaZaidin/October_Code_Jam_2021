@@ -1,3 +1,6 @@
 .header__search-img {
-  width: 30px;
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
 }

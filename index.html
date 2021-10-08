@@ -13,163 +13,176 @@
 
 <body>
   <div class="page">
-    <header class="header">
-      <div class="header__wrapper">
-        <img class="logo logo_place_header" src="./images/logo.png" alt="Yandex City Logo">
-        <div class="header__search">          
-          <img class="header__search-img" src="./images/search.png" alt="">
-          <input class="header__search-input" type="text" placeholder="Search for service">
+      <header class="header">
+        <div class="header__wrapper">
+          <img class="logo logo_place_header" src="./images/logo.png" alt="Yandex City Logo">
+          <div class="header__search">          
+            <input class="header__search-input" type="text" placeholder=" Search for service             &#x1F50D;&#xFE0E;">
+            <!-- <img class="header__search-img" src="./images/search.png" alt="">  -->
+          </div>
         </div>
-      </div>
-    </header>
-
-    <main>
-      <!-- Intro -->
-      <section class="intro">
-        <div class="intro__wrapper">
-          <h1 class="intro__title">Practicum City Municipal Services Online</h1>
-          <p class="intro__subtitle">
-            Dear citizens of Practicum City. During this difficult
-            for us all time we are doing our best to provide you with
-            municipal services.
-          </p>
-          <p class="intro__subtitle">
-            Please use this online aid to submit
-            requests to some of the City Hall office departments.
-          </p>
-        </div>
+      </header>
+  
+      <main class="main">
+        <!-- Intro -->
+        <section class="intro">
+          <div class="intro__wrapper">
+            <h1 class="intro__title">Practicum City Municipal Services Online</h1>
+            <p class="intro__subtitle">
+              Dear citizens of Practicum City. During this difficult
+              for us all time we are doing our best to provide you with
+              municipal services.
+            </p>
+            <p class="intro__subtitle">
+              Please use this online aid to submit
+              requests to some of the City Hall office departments.
+            </p>
+          </div>
+        </section>
+        <!-- Cards -->
+        <section class="cards">
+          <ul class="cards__wrapper">
+            <li class="cards__item">
+              <img class="cards__image" src="#" alt="">
+              <h2 class="cards__title">Senior Citizens</h2>
+              <ul class="cards__list">
+                <li class="cards__list-item">
+                  <button class="cards__button">City tax discount</button>
+                </li>
+                <li class="cards__list-item">
+                  <button class="cards__button">Home assistance</button>
+                </li>
+                <li class="cards__list-item">
+                  <button class="cards__button">Medical support</button>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="cards__item">
+              <img class="cards__image" src="#" alt="">
+              <h2 class="cards__title">Pet owners</h2>
+              <ul class="cards__list">
+                <li class="cards__list-item">
+                  <button class="cards__button">Registration</button>
+                </li>
+                <li class="cards__list-item">
+                  <button class="cards__button">Vaccination</button>
+                </li>
+                <li class="cards__list-item">
+                  <button class="cards__button">Castration</button>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="cards__item">
+              <img class="cards__image" src="#" alt="">
+              <h2 class="cards__title">Construction</h2>
+              <ul class="cards__list">
+                <li class="cards__list-item">
+                  <button class="cards__button">Building permit</button>
+                </li>
+                <li class="cards__list-item">
+                  <button class="cards__button">Safety officer approval</button>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="cards__item">
+              <img class="cards__image" src="#" alt="">
+              <h2 class="cards__title">Social events</h2>
+              <ul class="cards__list">
+                <li class="cards__list-item">
+                  <button class="cards__button">Business license</button>
+                </li>
+                <li class="cards__list-item">
+                  <button class="cards__button">Fire Department approval</button>
+                </li>
+                <li class="cards__list-item">
+                  <button class="cards__button">Department of Environmental Health approval</button>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="cards__item">
+              <img class="cards__image" src="#" alt="">
+              <h2 class="cards__title">Low income households</h2>
+              <ul class="cards__list">
+                <li class="cards__list-item">
+                  <button class="cards__button">City tax discount</button>
+                </li>
+                <li class="cards__list-item">
+                  <button class="cards__button">Food stamps</button>
+                </li>
+                <li class="cards__list-item">
+                  <button class="cards__button">Affordable housing</button>
+                </li>
+                <li class="cards__list-item">
+                  <button class="cards__button">Single parent support</button>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="cards__item">
+              <img class="cards__image" src="#" alt="">
+              <h2 class="cards__title">Child Development Unit</h2>
+              <ul class="cards__list">
+                <li class="cards__list-item">
+                  <button class="cards__button">Daycare</button>
+                </li>
+                <li class="cards__list-item">
+                  <button class="cards__button">Registration to Elementary <br> School</button>
+                </li>
+                <li class="cards__list-item">
+                  <button class="cards__button">Registration to kindergarten</button>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </main>
+  
+      <!-- Upload form  -->
+      <section class="popup popup_type_open">
+        <form class="popup__wrapper" name="form-open">
+          <h2 class="popup__title"></h2>
+          <h3 class="popup__subtitle">
+            Please fill in your full name and personal ID number. Scan or make a photograph 
+            of your documents and attach them to the form. Acceptable file formats are PDF, JPG or JPEG. 
+          </h3>
+          <input class="popup__input popup__input_type_name" name="full-name" id="full-name-input" type="text" placeholder="Full name" required minlength="2" maxlength="40">
+          <span class="input-error full-name-input-error"></span>
+          <input class="popup__input popup__input_type_ID" name="identification" id="identification-input" type="text" placeholder="Personal ID number" required minlength="9" maxlength="9">
+          <span class="input-error identification-input-error"></span>
+          <input class="popup__upload" name="upload-files" type="file" accept=".pdf, .jpg, .jpeg" multiple>
+          <button class="popup__submit" type="submit">Submit your request</button>
+          <button class="popup__close popup__close_type_form" type="button">Cancel</button>
+        </form>
       </section>
-      <!-- Cards -->
-      <section class="cards">
-        <ul class="cards__wrapper">
-          <li class="cards__item">
-            <img class="cards__image" src="#" alt="">
-            <h2 class="cards__title">Senior Citizens</h2>
-            <ul class="cards__list">
-              <li class="cards__list-item">
-                <button class="cards__button">City tax discount</button>
-              </li>
-              <li class="cards__list-item">
-                <button class="cards__button">Home assistance</button>
-              </li>
-              <li class="cards__list-item">
-                <button class="cards__button">Medical support</button>
-              </li>
-            </ul>
-          </li>
 
-          <li class="cards__item">
-            <img class="cards__image" src="#" alt="">
-            <h2 class="cards__title">Pet owners</h2>
-            <ul class="cards__list">
-              <li class="cards__list-item">
-                <button class="cards__button">Registration</button>
-              </li>
-              <li class="cards__list-item">
-                <button class="cards__button">Vaccination</button>
-              </li>
-              <li class="cards__list-item">
-                <button class="cards__button">Castration</button>
-              </li>
-            </ul>
-          </li>
-
-          <li class="cards__item">
-            <img class="cards__image" src="#" alt="">
-            <h2 class="cards__title">Construction</h2>
-            <ul class="cards__list">
-              <li class="cards__list-item">
-                <button class="cards__button">Building permit</button>
-              </li>
-              <li class="cards__list-item">
-                <button class="cards__button">Safety officer approval</button>
-              </li>
-            </ul>
-          </li>
-
-          <li class="cards__item">
-            <img class="cards__image" src="#" alt="">
-            <h2 class="cards__title">Social events</h2>
-            <ul class="cards__list">
-              <li class="cards__list-item">
-                <button class="cards__button">Business license</button>
-              </li>
-              <li class="cards__list-item">
-                <button class="cards__button">Fire Department approval</button>
-              </li>
-              <li class="cards__list-item">
-                <button class="cards__button">Department of Environmental Health approval</button>
-              </li>
-            </ul>
-          </li>
-
-          <li class="cards__item">
-            <img class="cards__image" src="#" alt="">
-            <h2 class="cards__title">Low income households</h2>
-            <ul class="cards__list">
-              <li class="cards__list-item">
-                <button class="cards__button">City tax discount</button>
-              </li>
-              <li class="cards__list-item">
-                <button class="cards__button">Food stamps</button>
-              </li>
-              <li class="cards__list-item">
-                <button class="cards__button">Affordable housing</button>
-              </li>
-              <li class="cards__list-item">
-                <button class="cards__button">Single parent support</button>
-              </li>
-            </ul>
-          </li>
-
-          <li class="cards__item">
-            <img class="cards__image" src="#" alt="">
-            <h2 class="cards__title">Child Development Unit</h2>
-            <ul class="cards__list">
-              <li class="cards__list-item">
-                <button class="cards__button">Daycare</button>
-              </li>
-              <li class="cards__list-item">
-                <button class="cards__button">Registration to Elementary <br> School</button>
-              </li>
-              <li class="cards__list-item">
-                <button class="cards__button">Registration to kindergarten</button>
-              </li>
-            </ul>
-          </li>
-        </ul>
+      <section class="popup popup_type_submitted">
+        <form class="popup__wrapper" name="form-submitted">
+          <h2 class="popup__title"></h2>
+          <h3 class="popup__subtitle">
+            Your request has been received by the service and will be reviewed within seven calendar days.
+            A message about the decision on your request will be sent to your email. You will also receive 
+            supporting certificates that have the legal force of an ordinary paper document.                   
+            Take care of yourself. 
+          </h3>
+          <button class="popup__close popup__close_type_form" type="button">Cancel</button>
+        </form>
       </section>
-    </main>
-
-    <!-- Upload form  -->
-    <section class="popup">
-      <form class="popup__wrapper" name="form">
-        <h2 class="popup__title"></h2>
-        <h3 class="popup__subtitle">
-          Please fill in your full name and personal ID number. Scan or make a photograph 
-          of your documents and attach them to the form. Acceptable file formats are PDF, JPG or JPEG. 
-        </h3>
-        <input class="popup__input popup__input_type_name" name="full-name" id="full-name-input" type="text" placeholder="Full name" required minlength="2" maxlength="40">
-        <span class="input-error full-name-input-error"></span>
-        <input class="popup__input popup__input_type_ID" name="identification" id="identification-input" type="text" placeholder="Personal ID number" required minlength="9" maxlength="9">
-        <span class="input-error identification-input-error"></span>
-        <input class="popup__upload" name="upload-files" type="file" accept=".pdf, .jpg, .jpeg" multiple>
-        <button class="popup__submit" type="submit">Submit your request</button>
-        <button class="popup__close popup__close_type_form" type="button">Cancel</button>
-      </form>
-    </section>
-
-    <footer class="footer">
-      <div class="footer__wraper">
-        <h2 class="footer__title">&copy; 2021 Practicum City</h2>
-        <div class="footer__contacts">
-          <a class="footer__contacts-item" href="#">About project</a>
-          <a class="footer__contacts-item" href="#">Contact us</a>
-          <a class="footer__contacts-item" href="#">Help</a>
+  
+      <footer class="footer">
+        <div class="footer__wrapper">
+          <h2 class="footer__title">&copy; 2021 Practicum City</h2>
+          <div class="footer__contacts">
+            <a class="footer__contacts-item" href="#">About project</a>
+            <a class="footer__contacts-item" href="#">Contact us</a>
+            <a class="footer__contacts-item" href="#">Help</a>
+          </div>
         </div>
-      </div>
-    </footer>
-  </div>
+      </footer>
+    </div>
   <script src="./index.js" type="module" defer></script>
 </body>
 
