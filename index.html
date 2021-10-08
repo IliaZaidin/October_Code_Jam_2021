@@ -149,9 +149,11 @@
             Please fill in your full name and personal ID number. Scan or make a photograph 
             of your documents and attach them to the form. Acceptable file formats are PDF, JPG or JPEG. 
           </h3>
-          <input class="popup__input popup__input_type_name" name="upload-name" type="text" placeholder="Full name">
-          <input class="popup__input popup__input_type_ID" name="upload-id" type="number" placeholder="Personal ID number" >
-          <input class="popup__input popup__input_type_files" name="upload-files" type="file" accept=".pdf, .jpg, .jpeg" multiple>
+          <input class="popup__input popup__input_type_name" name="full-name" id="full-name-input" type="text" placeholder="Full name" required minlength="2" maxlength="40">
+          <span class="input-error full-name-input-error"></span>
+          <input class="popup__input popup__input_type_ID" name="identification" id="identification-input" type="text" placeholder="Personal ID number" required minlength="9" maxlength="9">
+          <span class="input-error identification-input-error"></span>
+          <input class="popup__upload" name="upload-files" type="file" accept=".pdf, .jpg, .jpeg" multiple>
           <button class="popup__submit" type="submit">Submit your request</button>
           <button class="popup__close popup__close_type_form" type="button">Cancel</button>
         </form>
