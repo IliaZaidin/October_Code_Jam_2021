@@ -71,7 +71,6 @@ class FormValidator {
     }
 
     resetValidation = () => { //public so the user can decide when to reset his form validation
-      const inputArray = Array.from(this._inputList);
       this._toggleButtonState();
       this._inputList.forEach((input) => {
         this._hideInputError(input);
